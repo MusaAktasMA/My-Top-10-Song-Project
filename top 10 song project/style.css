@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.banner1{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(foto/940599.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.banner2{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(foto/anime-elfen-lied-wallpaper-preview.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.banner3{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(foto/Arcane-poster.png);
+    background-size: cover;
+    background-position: center;
+}
+.banner4{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(foto/90fb1f10f514ec63bad8583244047dd1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.banner5{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(foto/kim-taeyeon-south-korean-singer-beauty-asian-girls-taeyeon.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.banner6{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(foto/thumb-1920-1056221.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.banner7{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(foto/maxresdefault.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.banner8{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(foto/2560x1440-2560x1440-5e710b93049cbd2125cf0261dcfbf943.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.banner9{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(foto/wallpapersden.com_diana-league-of-legends_1920x1133.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.banner10{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(foto/cohmaxresdefault.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.banner11{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(foto/banner11.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+}
+.content h1 {
+    color: #d9cfdd;
+    font-size: 130px;
+    margin-top: 0px;
+    font-family: 'Dancing Script', cursive;
+}
+.foto {
+    border-radius: 30px;
+    width: 450px;
+}
+#audio {
+    margin-top: 20px;
+}
+.navbar{
+    height: 5vh;
+    width: 100%;
+    background-color: #222222;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    transition: 0.8s;
+}
+h2{
+    cursor: pointer;
+    transition: 0.8s;
+}
+a:hover{
+    color: #C83520;
+}
+h2:hover{
+    color: #C83520;
+}
+.active{
+    transition: 0.8s;
+    color: #C83520;
+}
